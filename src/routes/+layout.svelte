@@ -43,6 +43,7 @@
   .container {
     width: calc(100% - 20rem);
     padding: 2rem;
+    overflow-y: auto;
   }
 
   .sidebar-mobile {
