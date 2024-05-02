@@ -67,9 +67,5 @@
       flex-direction: column;
       gap: 4px;
     }
-
-    .sidebar-content__links li a {
-      padding: 0.35rem;
-    }
   }
 </style>

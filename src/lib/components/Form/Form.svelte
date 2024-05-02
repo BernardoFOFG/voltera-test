@@ -32,7 +32,7 @@
       on:input={handleInputChange}
       required
     />
-    <button type="submit">Enviar</button>
+    <button type="submit">Buscar</button>
     <slot />
   </form>
 </div>
@@ -61,6 +61,7 @@
     border-radius: 0.25rem;
     background-color: var(--green-dark);
     color: #fff;
+    margin-bottom: .50rem;
   }
 
   .box-search button:hover {

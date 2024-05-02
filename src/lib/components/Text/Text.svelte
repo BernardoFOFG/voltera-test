@@ -9,12 +9,7 @@
 
 <style>
   .title {
-    background-image: var(--text-gradient);
-    color: white;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    color: var(--green-md);
 
     text-transform: capitalize;
     margin-bottom: 24px;

@@ -49,6 +49,10 @@
     display: none;
   }
 
+  .sidebar-web {
+    display: flex;
+  }
+
   @media only screen and (max-width: 768px) {
     .container {
       width: 100%;
@@ -56,8 +60,7 @@
 
     .wrapper {
       flex-direction: column;
-      overflow-y: scroll !important;
-
+      overflow-y: auto;
     }
 
     .sidebar-web {
